@@ -4,6 +4,7 @@
 
 int main()
 {
+
     int n,fl = 0,max;
     Read(n);
     int* mass = new int[n * n];
@@ -16,6 +17,7 @@ int main()
             end(max, n, mass);
         else
             fl = 1;
+
     }
     Write(n, mass,fl);
     delete[] mass;
